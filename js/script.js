@@ -194,8 +194,8 @@ for (let i = 0; i < allMusic.length; i++) {
     if(totalSec < 10){ 
       totalSec = `0${totalSec}`;
     };
-    liAudioDuartionTag.innerText = `${totalMin}:${totalSec}`; //passing total duation of song
-    liAudioDuartionTag.setAttribute("t-duration", `${totalMin}:${totalSec}`); //adding t-duration attribute with total duration value
+    liAudioDuartionTag.innerText = `${totalMin}:${totalSec}`; 
+    liAudioDuartionTag.setAttribute("t-duration", `${totalMin}:${totalSec}`); 
   });
 }
 
